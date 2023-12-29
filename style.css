@@ -1,8 +1,25 @@
+html{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+h2{
+    color: navy;
+    font-family: 'Roboto Mono', monospace;
+}
+.text{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
 #name{
     text-align: center;
 }
+
 #img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 3px solid black;
 }
