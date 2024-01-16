@@ -9,6 +9,10 @@ h2{
     color: navy;
     font-family: 'Roboto Mono', monospace;
 }
+
+.sum{
+    margin-top: 25%;
+}
 .text{
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Mono', monospace;
