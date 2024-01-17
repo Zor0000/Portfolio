@@ -1,44 +1,34 @@
-html{
-    background-color: rgb(213, 235, 243);
+body {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
 }
 
-h1{
-    font-family: 'Roboto Mono', monospace;
-}
-h2{
-    color: navy;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.sum{
-    margin-top: 25%;
-}
-.text{
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-}
-#name{
+header {
     text-align: center;
 }
 
-#img{
+#img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid black;
-    float: left
-}
-#Mc{
-    text-align:start;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    border-radius: 10%;
 }
 
-div #img{
-    float: left;
-    text-align: start;
+section {
+    margin-bottom: 20px;
 }
 
-div >#d2{
-    clear: both;
+.text {
+    margin-bottom: 8px;
+}
+
+.sum {
+    margin-top: 0;
+}
+
+ol,
+ul {
+    padding-left: 20px;
 }
